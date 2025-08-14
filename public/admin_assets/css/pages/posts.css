@@ -1,0 +1,264 @@
+.post_page_titles{
+    background: #fff;
+    padding: 16px 40px;
+    box-shadow: 1px 0 20px rgba(0, 0, 0, .08);
+    margin: 0 -25px 25px -25px;
+    margin-top: -15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post_page_title_text{
+    font-weight: 400;
+    line-height: 1.2;
+    color: black;
+    font-family: system-ui;
+    font-style: revert;
+}
+
+.post-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.post-add-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.post_page_radio_group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.post_page_radio {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+/* Style the number input */
+input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Hide default number input arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Style the container */
+.number-input-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.number-input-container > input {
+
+    width: 100%;
+}
+
+/* Style the buttons */
+.number-input-container button {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+/* Adjust button spacing */
+.number-input-container button:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.number-input-container button:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.sq-ft-input{
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e9ecef;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15sease-in-out, box-shadow .15sease-in-out;
+}
+
+.post-input{ 
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.post-input:focus {
+    border: 1px solid #03a9f3;
+}
+
+.create_new_btn{
+    border-color: #03a9f3;
+    background-color: #03a9f3;
+    color: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 400;
+    padding: 8px;
+}
+
+.post-area {
+    height: unset;
+}
+
+.post-btn{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .875rem;
+    border-radius: .25rem;
+}
+
+.post-submit-btn {
+    background-color: #00c292;
+    border-color: #00c292;
+    color: #f0f0f0
+}
+
+.post-cancel-btn{
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #f0f0f0;
+}
+
+.post-card-img-top{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 6/4;
+    object-fit: fill;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 10;
+}
+
+.carousel-nav-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.carousel-nav-btn.prev {
+    left: 10px;
+}
+
+.carousel-nav-btn.next {
+    right: 10px;
+}
+
+/* Optional: Hide buttons on mobile */
+@media (max-width: 768px) {
+    .carousel-nav-btn {
+        display: none;
+    }
+}
+
+.number-pill {
+    background-color: #03a9f3;
+}
+
+.post-row {
+    --bs-gutter-x: 20px;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x)* .5);
+    margin-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.post-row > * {
+    --bs-gutter-x: 20px;
+    --bs-gutter-y: 0;
+    flex-shrink: 0;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.post-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+    margin-bottom: 20px;
+    pointer-events: none;
+}
+
+.post-card > * {
+    pointer-events: auto;
+}
+
+
+.post-remaining-img{
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.post-detail-remaining-img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 2/1;
+}

@@ -1,0 +1,154 @@
+# Laravel
+/vendor/
+/vendor_old/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public/
+/storage/framework/cache/data/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+/storage/logs/
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Public media files
+/public/*.jpg
+/public/*.jpeg
+/public/*.png
+/public/*.gif
+/public/*.svg
+/public/*.webp
+/public/*.ico
+/public/*.pdf
+/public/*.doc
+/public/*.docx
+/public/**/*.jpg
+/public/**/*.jpeg
+/public/**/*.png
+/public/**/*.gif
+/public/**/*.svg
+/public/**/*.webp
+/public/**/*.pdf
+/public/**/*.doc
+/public/**/*.docx
+
+# Uploaded files
+/public/uploads/
+/public/images/
+/public/img/
+/public/media/
+/public/files/
+/public/documents/
+/public/assets/images/
+/public/assets/img/
+/public/assets/media/
+/public/assets/files/
+/public/assets/documents/
+
+# Build artifacts
+/public/build/
+/public/css/*.map
+/public/js/*.map
+/public/mix-manifest.json
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
+*.cache
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Logs
+*.log
+/logs/
+/log/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Composer
+composer.phar
+
+# Laravel Telescope
+/public/vendor/telescope/
+
+# Laravel Horizon
+/public/vendor/horizon/
+
+# XAMPP specific
+.htaccess.sample
+error_log
+
+# Security
+*.key
+*.pem
+*.crt
+*.csr
+
+# System files
+__MACOSX/
+.well-known.zip
+ap-now.zip
+kircokw.com(backend).zip
+storage.zip
+
+# Node.js dependencies and build files
+node_modules/
+/public/admin_assets/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Compiled CSS and minified files
+*.min.css
+*.min.js
+/public/admin_assets/css/*.min.css
+/public/admin_assets/js/*.min.js
+
+# SCSS source maps
+*.css.map
+*.scss.map
+
+# Temporary upload directories
+/uploads/temp/
+
+# Laravel Mix
+/public/mix-manifest.json
+/public/hot
+/public/storage
+
+# Cache directories
+.cache/
+/bootstrap/cache/
+/config/cache/
+/route/cache/
