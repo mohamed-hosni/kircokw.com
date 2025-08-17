@@ -12,26 +12,30 @@ class Constants
     public const VERSION = "2.0";
 
     //Payment API URL
-    public const PAYMENT_API_URL = "https://api.hesabe.com";
+    // public const PAYMENT_API_URL = "https://api.hesabe.com";
 
-    // Get below values from Merchant Panel, Profile section
-    public const ACCESS_CODE = "87f7a861-9cb3-41e7-aa74-2e7e0b22d351";
-    public const MERCHANT_SECRET_KEY = "gq6JWP7kZYmN85A61mE8V32yb14B9XnM";
-    public const MERCHANT_IV = "ZYmN85A61mE8V32y";
-    public const MERCHANT_CODE = "86721223";
+    // // Get below values from Merchant Panel, Profile section
+    // public const ACCESS_CODE = "87f7a861-9cb3-41e7-aa74-2e7e0b22d351";
+    // public const MERCHANT_SECRET_KEY = "gq6JWP7kZYmN85A61mE8V32yb14B9XnM";
+    // public const MERCHANT_IV = "ZYmN85A61mE8V32y";
+    // public const MERCHANT_CODE = "86721223";
     
     // sandbox
-    // public const PAYMENT_API_URL = "https://sandbox.hesabe.com";
-    // public const ACCESS_CODE = "c333729b-d060-4b74-a49d-7686a8353481";
-    // public const MERCHANT_SECRET_KEY = "PkW64zMe5NVdrlPVNnjo2Jy9nOb7v1Xg";
-    // public const MERCHANT_IV = "5NVdrlPVNnjo2Jy9";
-    // public const MERCHANT_CODE = "842217";
+    public const PAYMENT_API_URL = "https://sandbox.hesabe.com";
+    public const ACCESS_CODE = "c333729b-d060-4b74-a49d-7686a8353481";
+    public const MERCHANT_SECRET_KEY = "PkW64zMe5NVdrlPVNnjo2Jy9nOb7v1Xg";
+    public const MERCHANT_IV = "5NVdrlPVNnjo2Jy9";
+    public const MERCHANT_CODE = "842217";
     
     
 
     // This URL are defined by you to get the response from Payment Gateway after success and failure
-    public const RESPONSE_URL = 'https://kircokw.com/admin/payment/success';
-    public const FAILURE_URL = 'https://kircokw.com/admin/payment/failure';
+    //public const RESPONSE_URL = 'https://kircokw.com/admin/payment/success';
+    //public const FAILURE_URL = 'https://kircokw.com/admin/payment/failure';
+
+    //local
+    public const RESPONSE_URL = 'http://127.0.0.1:8000/admin/payment/success';
+    public const FAILURE_URL = 'http://127.0.0.1:8000/admin/payment/failure';
 
     //Codes
     public const SUCCESS_CODE = 200;
